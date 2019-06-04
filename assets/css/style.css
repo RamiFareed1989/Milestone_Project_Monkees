@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#Nav {
+    font-family: "lobster", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+/*--------------------------- Header*/
+
+.h1 {
+    font-size: 70px;
+    font-family: "lobster", sans-serif;
+}
+
+
+/*--------------------------- Home*/
+
+.home {
+    background: url('../band_material/images/monkees.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*----------------------------- About*/
+
+#about {
+    background-repeat: no-repeat;
+    background-color: #c4c4c4;
+    background-position: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header_1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.image_1 {
+    margin-left: 50px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.image_2 {
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.band_text {
+    font-family: "roboto", sans-serif;
+    margin-top: 25px;
+}
+
+
+/*----------------------------- Music*/
+
+#music {
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header_2 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.head_music {
+    font-family: "lobster", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 35px;
+}
+
+.jumbotron {
+    background-color: #c4c4c4;
+    margin-top: 35px;
+}
+
+.music_heading {
+    font-family: "roboto", sans-serif;
+    font-size: 1.3em;
+    font-style: oblique;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.song_title {
+    font-family: "roboto", sans-serif;
+    font-size: 1.3em;
+    font-style: oblique;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.song {
+    color: grey;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+audio {
+    width: 400px;
+    height: 35px;
+}
+
+/*----------------------------- Booking*/
+
+#booking {
+    background-repeat: no-repeat;
+    background-color: #c4c4c4;
+    background-position: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header_3 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.form_formatting {
+    padding: 50px;
+    margin-top: 90px;
+    font-family: "roboto", sans-serif;
+}
+
+
+/*----------------------------- Footer*/
+
+#footer_details {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
