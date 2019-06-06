@@ -29,7 +29,6 @@
     background-size: cover;
 
     height: 100vh;
-    width: 100vw;
 }
 
 
@@ -44,20 +43,20 @@
 
 .header_1 {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 
 
 .image_1 {
-    margin-left: 50px;
+    margin-left: 0px;
 
     width: 100%;
     height: 100%;
 }
 
 .image_2 {
-    margin-left: 50px;
+    margin-left: 0px;
     width: 100%;
     height: 100%;
 }
@@ -79,7 +78,7 @@
 
 .header_2 {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 
@@ -92,49 +91,48 @@
 .resp-iframe {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 30px;
+    width: 75%;
+    height: 75%;
     border: 0;
 }
 
 .head_music {
     font-family: "lobster", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    padding: 35px;
+    padding: 0;
 }
 
 .jumbotron {
     background-color: #c4c4c4;
-    margin-top: 35px;
-}
-
-.music_heading {
-    font-family: "roboto", sans-serif;
-    font-size: 1.3em;
-    font-style: oblique;
-    margin-left: 50px;
-    margin-top: 35px;
+    padding: 30px;
+    margin-left: 35px;
+    width: 75%;
+    text-align: center;
 }
 
 .song_title {
     font-family: "roboto", sans-serif;
     font-size: 1.3em;
     font-style: oblique;
-    margin-left: 50px;
     margin-top: 35px;
 }
 
 .song {
     color: grey;
     padding-bottom: 40px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 audio {
-    width: 400px;
+    width: 300px;
     height: 35px;
+}
+
+.audio_setup {
+    margin-left: 0px;
+    padding-right: 0px;
 }
 
 /*----------------------------- Booking*/
@@ -148,14 +146,19 @@ audio {
 
 .header_3 {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 
 .form_formatting {
     padding: 50px;
-    margin-top: 90px;
+    margin-top: 15px;
     font-family: "roboto", sans-serif;
+}
+
+.fa-envelope {
+    font-size: 70px;
+    padding-bottom: 30px;
 }
 
 
@@ -166,4 +169,85 @@ audio {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2em;
+}
+
+/*---------------------------- Social media icons*/
+
+.fa-facebook {
+    color: #000;
+}
+
+.fa-twitter {
+    color: #000;
+}
+
+.fa-youtube {
+    color: #000;
+}
+
+/*----------------------------- Media queries*/
+
+@media (min-width: 556px) {
+    audio {
+        width: 500px;
+        height: 35px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 556px) {
+    .form_formatting {
+        padding: 100px;
+        margin-top: 15px;
+        font-family: "roboto", sans-serif;
+    }
+    .header_3 {
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 35px;
+    }
+    .header_2 {
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 35px;
+    }
+    .song_title {
+        font-family: "roboto", sans-serif;
+        font-size: 1.3em;
+        font-style: oblique;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .music_heading {
+        font-family: "roboto", sans-serif;
+        font-size: 1.3em;
+        font-style: oblique;
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+    .resp-iframe {
+        position: absolute;
+        top: 0;
+        left: 35px;
+        width: 75%;
+        height: 75%;
+        border: 0;
+    }
+    .header_1 {
+        text-align: left;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+
+    .image_1 {
+        margin-left: 35px;
+
+        width: 100%;
+        height: 100%;
+    }
+    .image_2 {
+        margin-left: 35px;
+        width: 100%;
+        height: 100%;
+    }
 }
