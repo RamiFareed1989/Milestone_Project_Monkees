@@ -184,3 +184,11 @@ audio {
         height: 35px;
     }
 }
+
+
+@media (min-width: 996px) {
+    audio {
+        width: 600px;
+        height: 35px;
+    }
+}
