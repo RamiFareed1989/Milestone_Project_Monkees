@@ -5,6 +5,7 @@
     font-family: "lobster", sans-serif;
     font-weight: bold;
     font-size: x-large;
+    text-transform: uppercase;
 }
 
 
@@ -40,21 +41,20 @@
 }
 
 .header_1 {
-    text-align: left;
-    margin-left: 0px;
+    text-align: center;
     margin-top: 30px;
 }
 
-
-.image_1 {
-    margin-left: 0px;
-
-    width: 100%;
-    height: 100%;
+.jumbotron_own_1 {
+    font-family: "lobster", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
-.image_2 {
-    margin-left: 0px;
+.image {
+    text-align: center;
     width: 100%;
     height: 100%;
 }
@@ -74,54 +74,47 @@
     font-family: "roboto", sans-serif;
 }
 
-.header_2 {
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 30px;
-}
 
-.video_music {
+#video_music {
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .head_music {
     font-family: "lobster", sans-serif;
     font-size: 1.5em;
     text-align: center;
-    padding: 0;
 }
 
-.jumbotron {
-    background-color: #c4c4c4;
-    padding: 30px;
-    width: 75%;
-    margin-left: 40px;
+.jumbotron_own {
+    font-family: "lobster", sans-serif;
+    font-size: 1.8em;
     text-align: center;
+    background-color: #c4c4c4;
+    border-radius: 50%;
 }
 
 .song_title {
     font-family: "roboto", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-style: oblique;
     margin-top: 35px;
+    text-align: center;
 }
 
 .song {
     color: grey;
     padding-bottom: 40px;
-    padding-left: 10px;
+    text-align: center;
 }
 
 audio {
     width: 300px;
     height: 35px;
+    text-align: center;
 }
 
-.audio_setup {
-    margin-left: 0px;
-    padding-right: 0px;
-}
 
 /*----------------------------- Booking*/
 
@@ -130,22 +123,30 @@ audio {
     background-color: #c4c4c4;
     background-position: center;
     font-family: "roboto", sans-serif;
+    padding-bottom: 50px;
 }
 
-.header_3 {
-    text-align: left;
-    margin-left: 0px;
+.header_2 {
+    text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .form_formatting {
-    padding: 50px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-family: "roboto", sans-serif;
 }
 
+.button_position {
+    text-align: center;
+}
+
+.align_form {
+    text-align: center;
+}
+
 .fa-envelope {
-    font-size: 70px;
+    font-size: 100px;
     padding-bottom: 30px;
 }
 
@@ -179,70 +180,7 @@ audio {
 
 @media (min-width: 556px) {
     audio {
-        width: 500px;
+        width: 400px;
         height: 35px;
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 556px) {
-    .form_formatting {
-        padding: 100px;
-        margin-top: 15px;
-        font-family: "roboto", sans-serif;
-    }
-    .header_3 {
-        text-align: left;
-        margin-left: 50px;
-        margin-top: 35px;
-    }
-    .header_2 {
-        text-align: left;
-        margin-left: 50px;
-        margin-top: 35px;
-    }
-    .song_title {
-        font-family: "roboto", sans-serif;
-        font-size: 1.3em;
-        font-style: oblique;
-        margin-top: 35px;
-        margin-left: 30px;
-    }
-    .music_heading {
-        font-family: "roboto", sans-serif;
-        font-size: 1.3em;
-        font-style: oblique;
-        margin-left: 35px;
-        margin-top: 35px;
-    }
-    .resp-iframe {
-        position: absolute;
-        top: 0;
-        left: 35px;
-        width: 75%;
-        height: 75%;
-        border: 0;
-    }
-    .header_1 {
-        text-align: left;
-        margin-left: 35px;
-        margin-top: 30px;
-    }
-
-    .image_1 {
-        margin-left: 35px;
-
-        width: 100%;
-        height: 100%;
-    }
-    .image_2 {
-        margin-left: 35px;
-        width: 100%;
-        height: 100%;
-    }
-    .video_music {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 25px;
     }
 }
