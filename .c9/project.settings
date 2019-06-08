@@ -2,6 +2,9 @@
     "ace": {
         "@tabSize": 4
     },
+    "build": {
+        "@saveall": true
+    },
     "general": {
         "@stripws": false
     },
