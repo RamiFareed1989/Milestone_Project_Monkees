@@ -8,7 +8,6 @@
 }
 
 
-
 /*--------------------------- Header*/
 
 .h1 {
@@ -82,19 +81,9 @@
     margin-top: 30px;
 }
 
-.resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-
-.resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 30px;
-    width: 75%;
-    height: 75%;
-    border: 0;
+.video_music {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .head_music {
@@ -107,8 +96,8 @@
 .jumbotron {
     background-color: #c4c4c4;
     padding: 30px;
-    margin-left: 35px;
     width: 75%;
+    margin-left: 40px;
     text-align: center;
 }
 
@@ -175,10 +164,12 @@ audio {
 
 .fa-facebook {
     color: #000;
+    padding-right: 25px;
 }
 
 .fa-twitter {
     color: #000;
+    padding-right: 25px;
 }
 
 .fa-youtube {
@@ -249,5 +240,10 @@ audio {
         margin-left: 35px;
         width: 100%;
         height: 100%;
+    }
+    .video_music {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
     }
 }
