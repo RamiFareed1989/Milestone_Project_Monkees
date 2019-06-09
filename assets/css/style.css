@@ -50,7 +50,7 @@
     font-size: 1.8em;
     text-align: center;
     background-color: #fff;
-    border-radius: 50%;
+    margin-top: 35px;
 }
 
 .image {
@@ -92,7 +92,7 @@
     font-size: 1.8em;
     text-align: center;
     background-color: #c4c4c4;
-    border-radius: 50%;
+    margin-top: 35px;
 }
 
 .song_title {
@@ -178,7 +178,7 @@ audio {
 
 /*----------------------------- Media queries*/
 
-@media (min-width: 556px) {
+@media (min-width: 812px) {
     audio {
         width: 400px;
         height: 35px;
@@ -186,7 +186,7 @@ audio {
 }
 
 
-@media (min-width: 996px) {
+@media (min-width: 1100px) {
     audio {
         width: 600px;
         height: 35px;
