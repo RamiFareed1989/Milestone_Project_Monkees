@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fresca&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 #Nav_1 {
-    font-family: "lobster", sans-serif;
+    font-family: "fresca", sans-serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
+    background-color: white;
 }
 
 
@@ -13,7 +14,7 @@
 
 .h1 {
     font-size: 70px;
-    font-family: "lobster", sans-serif;
+    font-family: "fresca", sans-serif;
 }
 
 
@@ -43,10 +44,11 @@
 .header_1 {
     text-align: center;
     margin-top: 30px;
+    text-transform: uppercase;
 }
 
 .jumbotron_own_1 {
-    font-family: "lobster", sans-serif;
+    font-family: "fresca", sans-serif;
     font-size: 1.8em;
     text-align: center;
     background-color: #fff;
@@ -82,13 +84,13 @@
 }
 
 .head_music {
-    font-family: "lobster", sans-serif;
+    font-family: "fresca", sans-serif;
     font-size: 1.5em;
     text-align: center;
 }
 
 .jumbotron_own {
-    font-family: "lobster", sans-serif;
+    font-family: "fresca", sans-serif;
     font-size: 1.8em;
     text-align: center;
     background-color: #c4c4c4;
@@ -130,6 +132,7 @@ audio {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 .form_formatting {
