@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-#Nav_1 {
+html {
+    scroll-behavior: smooth; 
+}
+
+
+.navbar {
     font-family: "fresca", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
     text-transform: uppercase;
-    background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 
