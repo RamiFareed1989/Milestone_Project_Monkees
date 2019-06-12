@@ -24,9 +24,20 @@ They want to show more presence again and gain more fans and they offer their se
 + The booking part with the submission form to contact them
 
 
+## Testing
+
+The page creation went very well and better than expected and i'm reached the targeted final page with all the elements that were used and everything functions as it supposed to be. 
+
+I tested the websie with the non fixed navigation bar and figured out that it's not user friendly to have a navbar that disappears after scrolling and you won't be able to jump back and forth between pages, so i decided to go with a fixed navbar. 
+
+The text alignment was by default `left alignment` so therefore i decided to go with the `center alignment` after consulting with my mentor and going through the page. 
+
+In the section of **_About_** i used the full width for the pictures and it appeared a bit squished therefore i went with the `object-fit` style class to make it take a normal shape.
+
+
 ## Features
 
-I used the feature `html {scroll-behavior: smooth;}` to make scrolling throughout the page more smooth and user friendly and also used a collapsed navigation bar to make the site looks cleaner on all devices
+I used the feature `html {scroll-behavior: smooth;}` to make scrolling throughout the page more smooth and user friendly and also used a collapsed navigation bar to make the site looks cleaner on all devices.
 
 
 ## UX
@@ -43,6 +54,6 @@ I wanted to give a brief information about the type of music that the monkees pr
 
 ## Credits: 
 
-I used for the **About** section [Wikipedia](https://www.wikipedia.org/) as a source to get the information about the **_Monkees_**
+I used for the **About** section [Wikipedia](https://www.wikipedia.org/) as a source to get the information about the **_Monkees_**.
 
 In the **Music** section i used `iFrame` element and implemented a youtube video of the **_Monkees_** official YouTube channel!

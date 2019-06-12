@@ -38,7 +38,7 @@ html {
 
 .home {
     background: url('../band_material/images/monkees.jpg');
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
