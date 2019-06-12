@@ -37,4 +37,4 @@ I will be using Bootstrap as a help for my css but i will do use my own css code
 
 ## Credits: 
 
-I used for the **About** section [Wikipedia](wikipedia.com) as a source to get the information about the **_Monkees_**
+I used for the **About** section [Wikipedia](https://www.wikipedia.org/) as a source to get the information about the **_Monkees_**
