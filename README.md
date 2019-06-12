@@ -1,6 +1,6 @@
 # Milestone Project
 
-##Introduction:
+## Introduction:
 
 This is my first project using User Centric Frontend Development on my own!
 
@@ -12,6 +12,29 @@ The page will include several songs and pictures of the band!
 I will be using Bootstrap as a help for my css but i will do use my own css codes!
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
 ## Credits: 
 
-I used 
+I used for the **About** section [Wikipedia](wikipedia.com) as a source to get the information about the **_Monkees_**
