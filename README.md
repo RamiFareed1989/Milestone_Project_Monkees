@@ -24,9 +24,25 @@ They want to show more presence again and gain more fans and they offer their se
 + The booking part with the submission form to contact them
 
 
----
+## Features
 
+I used the feature `html {scroll-behavior: smooth;}` to make scrolling throughout the page more smooth and user friendly and also used a collapsed navigation bar to make the site looks cleaner on all devices
+
+
+## UX
+
+My intention is to create a website that is easy to comprehend and also nice at the same time. I made sure that the reader has enough information about the monkees and how did they form back in the days.
+
+I wanted to give a brief information about the type of music that the monkees provides and some songs as examples.
+
+## Technologies
+
+1. HTML
+2. CSS
+3. Bootstrap 4.7
 
 ## Credits: 
 
 I used for the **About** section [Wikipedia](https://www.wikipedia.org/) as a source to get the information about the **_Monkees_**
+
+In the **Music** section i used `iFrame` element and implemented a youtube video of the **_Monkees_** official YouTube channel!
