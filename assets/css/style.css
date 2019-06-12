@@ -2,19 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
-
 
 .navbar {
     font-family: "fresca", sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 1.2em;
     text-transform: uppercase;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
 }
 
 .navbar-toggler {
     border: none;
+}
+
+.navbar-nav {
+    text-align: left;
 }
 
 
@@ -44,7 +52,7 @@ html {
 
 #about {
     background-repeat: no-repeat;
-    background-color: #c4c4c4;
+    background-color: #c4c4c47d;
     background-position: center;
     font-family: "roboto", sans-serif;
 }
@@ -65,13 +73,18 @@ html {
 
 .image {
     text-align: center;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.contain {
+    object-fit: cover;
 }
 
 .band_text {
     font-family: "roboto", sans-serif;
     margin-top: 25px;
+    text-align: center;
 }
 
 
@@ -101,7 +114,7 @@ html {
     font-family: "fresca", sans-serif;
     font-size: 1.8em;
     text-align: center;
-    background-color: #c4c4c4;
+    background-color: #c4c4c47d;
     margin-top: 35px;
 }
 
@@ -130,7 +143,7 @@ audio {
 
 #booking {
     background-repeat: no-repeat;
-    background-color: #c4c4c4;
+    background-color: #c4c4c47d;
     background-position: center;
     font-family: "roboto", sans-serif;
     padding-bottom: 50px;
