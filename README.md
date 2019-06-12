@@ -4,32 +4,24 @@
 
 This is my first project using User Centric Frontend Development on my own!
 
-In this project I will be building a website for a band from the 60's that want to show more presence and gain more fans and at the same having the possiblity to be offer a sechdule online in case 
-customers want to book them. 
+Here I'm building a website for a band from the 60's called the **_Monkees_**. 
 
-The page will include several songs and pictures of the band!
-
-I will be using Bootstrap as a help for my css but i will do use my own css codes!
+They want to show more presence again and gain more fans and they offer their services such as being booked for events and parties!
 
 
+## Content of the Page
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. The first page contains:
+..* The Navigation bar with the different pages 
+..* The home page that i kept simple since it shows a nice picture of the band members
+2. The second page contains:
+..* The first part is talking about the Bio of the band all together with a picture of all 4
+..* The second part shows the 4 different individuals with their pictures and their own Bios
+3. The Thrid page contains:
+..* A famous video of them with the title of it 
+..* And 4 different famous songs of theirs
+4. The fourth and last page contains:
+..* The booking part with the submission form to contact them
 
 
 ---
