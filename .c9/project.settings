@@ -2,6 +2,9 @@
     "ace": {
         "@tabSize": 4
     },
+    "aws": {
+        "@awsRegion": "eu-central-1"
+    },
     "build": {
         "@saveall": true
     },

@@ -2,11 +2,9 @@
 
 ## Introduction:
 
-This is my first project using User Centric Frontend Development on my own!
+This website is my first milestone project within user centric front-end development, I have made this wesbite for the 60s band **_Monkees_** which concludes of an About page which highlights the bands history as well as the biography of each band members, The second page features some of their most popular music and the final page consists of a contact forum for those who would like to make future bookings with the monkees. 
 
-Here I'm building a website for a band from the 60's called the **_Monkees_**. 
 
-They want to show more presence again and gain more fans and they offer their services such as being booked for events and parties!
 
 
 ## Content of the Page
