@@ -38,7 +38,7 @@ html {
 
 .home {
     background: url('../band_material/images/monkees.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #000;
@@ -206,6 +206,15 @@ audio {
     audio {
         width: 400px;
         height: 35px;
+    }
+    .home {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
     }
 }
 
