@@ -34,6 +34,8 @@ The text alignment was by default `left alignment` so therefore i decided to go 
 
 In the section of **_About_**, i used the full width for the pictures and it appeared a bit squished therefore i went with the `object-fit` style class to make it take a normal shape.
 
+I also tested the site throughout multiple browsers such as (Chrome, Firefox, Safari and phone browsers).
+
 
 ## Features
 
