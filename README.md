@@ -54,6 +54,11 @@ I wanted to give brief information about the type of music that the monkees prov
 2. CSS
 3. Bootstrap 4.7
 
+
+## Deployment
+
+I deployed the page on github, check the this [Link](https://ramifareed1989.github.io/Milestone_Project_Monkees/) to see it!
+
 ## Credits: 
 
 I used for the **About** section [Wikipedia](https://www.wikipedia.org/) as a source to get the information about the **_Monkees_**.
