@@ -4,8 +4,9 @@
 
 This website is my first milestone project within user centric front-end development, I have made this wesbite for the 60s band **_Monkees_** which concludes of an About page which highlights the bands history as well as the biography of each band members, The second page features some of their most popular music and the final page consists of a contact forum for those who would like to make future bookings with the monkees. 
 
+![alt text][band]
 
-
+[band]: https://metvcdn.metv.com/eEOwi-1551218298-169-show-Monkees_940x370%20%281%29.jpg "Band picture"
 
 ## Content of the Page
 
@@ -19,7 +20,7 @@ This website is my first milestone project within user centric front-end develop
 + A famous video of them with the title of it 
 + And 4 different famous songs of theirs
 4. The fourth and last page contains:
-+ The booking part with the submission form to contact them
++ The contact page for booking purposes
 
 
 ## Testing
